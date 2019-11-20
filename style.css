@@ -1,0 +1,73 @@
+/* GLOBAL */
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Condensed&display=swap');
+
+:root {
+	--l_orange: #ffc266;
+	--orange: #cc7a00;
+	--darkblue: #204C72;
+}
+
+/* CONTAINERS */
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 2em;
+}
+
+.tab-content
+{
+	padding: 1em;
+	border: 1px solid #ddd;
+}
+
+h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 72px;
+}
+
+h4
+{
+	font-weight: bold;
+	color: var(--darkblue);
+}
+
+
+/* TABS */
+
+.darkblue {
+	background-color: var(--darkblue);
+}
+
+.darkblue > li > a:hover {
+	color: var(--darkblue)
+}
+
+.tangerine {
+	background-color: var(--orange);
+}
+
+.tangerine > li > a:hover {
+	color: var(--orange)
+}
+
+.nav > li {
+	margin: 5px 0 0 5px !important;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 18px;
+}
+
+.nav > li > a {
+	color: #ffffff;
+}
+
+.nav-tabs {
+	border-bottom: none !important;
+}
+
+/* TABLES */
+
+th
+{
+	background-color: var(--l_orange);
+}
